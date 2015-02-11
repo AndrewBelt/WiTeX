@@ -11,6 +11,7 @@ For more information, please refer to <http://unlicense.org/>
 
 /*
 WiTeX
+https://github.com/AndrewBelt/WiTeX
 */
 
 
@@ -20,28 +21,28 @@ WiTeX
 	font-family: 'Latin Modern Roman';
 	font-weight: normal;
 	font-style: normal;
-	src: url('/fonts/lmroman10-regular.woff') format('woff');
+	src: url('https://raw.githack.com/AndrewBelt/WiTeX/master/fonts/lmroman10-regular.woff') format('woff');
 }
 
 @font-face {
 	font-family: 'Latin Modern Roman';
 	font-weight: bold;
 	font-style: normal;
-	src: url('/fonts/lmroman10-bold.woff') format('woff');
+	src: url('https://raw.githack.com/AndrewBelt/WiTeX/master/fonts/lmroman10-bold.woff') format('woff');
 }
 
 @font-face {
 	font-family: 'Latin Modern Roman';
 	font-weight: normal;
 	font-style: italic;
-	src: url('/fonts/lmroman10-oblique.woff') format('woff');
+	src: url('https://raw.githack.com/AndrewBelt/WiTeX/master/fonts/lmroman10-oblique.woff') format('woff');
 }
 
 @font-face {
 	font-family: 'Latin Modern Roman';
 	font-weight: bold;
 	font-style: italic;
-	src: url('/fonts/lmroman10-boldoblique.woff') format('woff');
+	src: url('https://raw.githack.com/AndrewBelt/WiTeX/master/fonts/lmroman10-boldoblique.woff') format('woff');
 }
 
 /* Page Layout */
@@ -52,8 +53,6 @@ body {
 }
 
 body {
-	/* I use the wildcard selector with extreme hesitation
-	   but otherwise have to override every relevant element */
 	font-family: 'Latin Modern Roman', serif;
 }
 
@@ -70,7 +69,7 @@ ul {
 	list-style: disc;
 }
 
-.ns-subject #mw-navigation, #mw-page-base, #mw-head-base, #footer {
+#mw-navigation, #mw-page-base, #mw-head-base, #footer {
 	/* nuke everything but the content */
 	display: none;
 }
