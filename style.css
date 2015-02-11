@@ -110,6 +110,9 @@ ul {
 
 .mw-body-content {
 	text-align: justify;
+	-moz-hyphens: auto;
+	-webkit-hyphens: auto;
+	hyphens: auto;
 }
 
 dl dd {
