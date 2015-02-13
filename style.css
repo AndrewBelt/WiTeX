@@ -78,7 +78,7 @@ ul {
 
 .mw-body {
 	max-width: 720px;
-	margin: 0 auto;
+	margin: 1em auto;
 }
 
 #content {
@@ -92,6 +92,7 @@ ul {
 }
 
 #siteSub {
+	margin-top: -0.5em;
 	margin-bottom: 4em;
 }
 
@@ -112,8 +113,8 @@ ul {
 
 .mw-body h1, .mw-body h2, .mw-body h3, .mw-body h4, .mw-body h5, .mw-body h6 {
 	font-family: inherit;
-	line-height: 2em;
-	margin-bottom: 0;
+	line-height: 1.5em;
+	margin-bottom: 0.5em;
 }
 
 .mw-body h1 {
@@ -187,4 +188,14 @@ span.texhtml {
 
 .toctoggle {
 	display: none;
+}
+
+/* Figures */
+
+div.tright {
+	margin: 0.5em 0 0.5em 1.5em;
+}
+
+div.tleft {
+	margin: 0.5em 1.5em 0.5em 0;
 }
