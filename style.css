@@ -49,7 +49,7 @@ https://github.com/AndrewBelt/WiTeX
 
 body {
 	background: none;
-	font-size: 16pt;
+	font-size: 14pt;
 }
 
 body {
@@ -78,7 +78,7 @@ ul {
 
 .mw-body {
 	max-width: 720px;
-	margin: 2em auto;
+	margin: 0 auto;
 }
 
 #content {
@@ -91,26 +91,62 @@ ul {
 	display: block;
 }
 
-.mw-body h1, .mw-body h2 {
-	font-family: inherit;
-}
-
 #siteSub {
 	margin-bottom: 4em;
 }
 
 /* Article Body */
 
-.mw-editsection {
-	/* hide more non-content */
-	display: none;
-}
-
 .mw-body-content {
+	font-size: inherit;
 	text-align: justify;
 	-moz-hyphens: auto;
 	-webkit-hyphens: auto;
 	hyphens: auto;
+	line-height: 1.5em;
+}
+
+.mw-body {
+	padding: 2em 0;
+}
+
+.mw-body h1, .mw-body h2, .mw-body h3, .mw-body h4, .mw-body h5, .mw-body h6 {
+	font-family: inherit;
+	line-height: 2em;
+	margin-bottom: 0;
+}
+
+.mw-body h1 {
+	font-size: 2em;
+}
+
+.mw-body h2 {
+	font-size: 1.5em;
+}
+
+.mw-body h3 {
+	font-size: 1.2em;
+}
+
+.mw-body h4 {
+	font-size: 1.1em;
+}
+
+.mw-body h5, .mw-body h6 {
+	font-size: 1.0em;
+}
+
+.mw-body p {
+	margin: 0;
+}
+
+.mw-body p + p {
+	text-indent: 2em;
+}
+
+.mw-editsection {
+	/* hide more non-content */
+	display: none;
 }
 
 dl dd {
@@ -131,14 +167,18 @@ span.texhtml {
 	border: none;
 	padding: 0;
 	background: none;
+	font-size: inherit;
+	/* span 100% of the width */
+	display: block;
 }
 
 .mw-body #toc h2, .mw-body .toc h2 {
 	font-family: inherit;
+	font-size: 1.5em;
 }
 
 #toc h2, .toc h2 {
-	display:block;
+	display: block;
 }
 
 #toc #toctitle, .toc #toctitle, #toc .toctitle, .toc .toctitle {
