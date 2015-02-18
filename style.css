@@ -164,6 +164,10 @@ ul {
 	display: none;
 }
 
+table.ambox {
+	margin-bottom: 1em;
+}
+
 dl dd {
 	/* center definitions (most useful for display equations) */
 	text-align: center;
