@@ -224,6 +224,6 @@ div.tleft {
 	margin: 1em 0;
 }
 
-.mw-code pre, code {
+pre, code {
 	font-family: "Latin Modern Mono", monospace !important;
 }
