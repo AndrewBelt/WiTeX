@@ -81,7 +81,7 @@ ul {
 	margin: 1em auto;
 }
 
-#content {
+#content, div#content {
 	border: none;
 	color: black;
 }
@@ -111,17 +111,17 @@ ul {
 	padding: 2em 0;
 }
 
-.mw-body h1, .mw-body h2, .mw-body h3, .mw-body h4, .mw-body h5, .mw-body h6 {
+.mw-body h1, .mw-body h2, .mw-body h3, .mw-body h4, .mw-body h5, .mw-body h6, div#content h1, div#content h2, div#content #firstHeading {
 	font-family: inherit;
 	line-height: 1.5em;
 	margin-bottom: 0.5em;
 }
 
-.mw-body h1 {
+.mw-body h1, div#content h1 {
 	font-size: 2em;
 }
 
-.mw-body h2 {
+.mw-body h2, div#content h2 {
 	font-size: 1.5em;
 }
 
