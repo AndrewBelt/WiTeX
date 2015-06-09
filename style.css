@@ -21,42 +21,42 @@ https://github.com/AndrewBelt/WiTeX
 	font-family: 'Latin Modern Roman';
 	font-weight: normal;
 	font-style: normal;
-	src: url('//cdn.rawgit.com/AndrewBelt/WiTeX/master/fonts/lmroman10-regular.woff') format('woff');
+	src: url('https://cdn.rawgit.com/AndrewBelt/WiTeX/master/fonts/lmroman10-regular.woff') format('woff');
 }
 
 @font-face {
 	font-family: 'Latin Modern Roman';
 	font-weight: bold;
 	font-style: normal;
-	src: url('//cdn.rawgit.com/AndrewBelt/WiTeX/master/fonts/lmroman10-bold.woff') format('woff');
+	src: url('https://cdn.rawgit.com/AndrewBelt/WiTeX/master/fonts/lmroman10-bold.woff') format('woff');
 }
 
 @font-face {
 	font-family: 'Latin Modern Roman';
 	font-weight: normal;
 	font-style: italic;
-	src: url('//cdn.rawgit.com/AndrewBelt/WiTeX/master/fonts/lmroman10-italic.woff') format('woff');
+	src: url('https://cdn.rawgit.com/AndrewBelt/WiTeX/master/fonts/lmroman10-italic.woff') format('woff');
 }
 
 @font-face {
 	font-family: 'Latin Modern Roman';
 	font-weight: bold;
 	font-style: italic;
-	src: url('//cdn.rawgit.com/AndrewBelt/WiTeX/master/fonts/lmroman10-bolditalic.woff') format('woff');
+	src: url('https://cdn.rawgit.com/AndrewBelt/WiTeX/master/fonts/lmroman10-bolditalic.woff') format('woff');
 }
 
 @font-face {
 	font-family: 'Latin Modern Mono';
 	font-weight: normal;
 	font-style: normal;
-	src: url('//cdn.rawgit.com/AndrewBelt/WiTeX/master/fonts/lmmono10-regular.woff') format('woff');
+	src: url('https://cdn.rawgit.com/AndrewBelt/WiTeX/master/fonts/lmmono10-regular.woff') format('woff');
 }
 
 @font-face {
 	font-family: 'Latin Modern Mono';
 	font-weight: normal;
 	font-style: italic;
-	src: url('//cdn.rawgit.com/AndrewBelt/WiTeX/master/fonts/lmmono10-italic.woff') format('woff');
+	src: url('https://cdn.rawgit.com/AndrewBelt/WiTeX/master/fonts/lmmono10-italic.woff') format('woff');
 }
 
 /* Page Layout */
