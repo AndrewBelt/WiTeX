@@ -79,6 +79,10 @@ a, a:visited {
 	color: #a00;
 }
 
+a.new, a.new:visited {
+	color: #e33;
+}
+
 ul {
 	list-style: disc;
 }
