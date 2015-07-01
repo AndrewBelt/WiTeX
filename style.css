@@ -64,10 +64,8 @@ https://github.com/AndrewBelt/WiTeX
 body {
 	background: none;
 	font-size: 14pt;
-}
-
-body {
 	font-family: 'Latin Modern Roman', serif;
+	color: black;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -80,7 +78,7 @@ a, a:visited {
 }
 
 a.new, a.new:visited {
-	color: #e33;
+	color: black;
 }
 
 ul {
