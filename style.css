@@ -229,3 +229,7 @@ div.tleft {
 pre, code {
 	font-family: "Latin Modern Mono", monospace !important;
 }
+
+sup {
+	text-indent: 0;
+}
